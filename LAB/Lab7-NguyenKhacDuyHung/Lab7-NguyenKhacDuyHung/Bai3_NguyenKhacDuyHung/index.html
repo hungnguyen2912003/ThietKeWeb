@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>63132095_NguyenKhacDuyHung</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+<body>
+    <section class="container forms">
+        <div class="form">
+            <div class="form-content">
+                <header>Kiểm tra thông tin</header>
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" class="phone" id="phone" required>
+                        <i class='bx bxs-phone phone-icon icon' ></i>
+                        <label>Số điện thoại</label>
+                    </div>
+
+                    <div class="input-field">
+                        <input type="text" class="email" id="email" required>
+                        <i class='bx bx-envelope mail-icon icon' ></i>
+                        <label>Email</label>
+                    </div>
+
+                    <div class="field button-field">
+                        <button>Kiểm tra</button>
+                    </div>
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                var phnum = $("#phone").val();
+                var phoneregex = /^\d{9,10}$/;
+                var email = $("#email").val();
+                var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+                var validphone = phoneregex.test(phnum);
+                var validemail = emailRegex.test(email);
+                if(phnum == null || email == null){
+                    alert("Vui lòng điền đầy đủ thông tin");
+                }
+                else{
+                    if(!validphone){
+                        alert("Số điện thoại không hợp lệ!");
+                        $("#phone").val("");
+                    }
+                    if(!validemail){
+                        alert("Email không hợp lệ!");
+                        $("#email").val("");
+                    }
+                    if(validphone && validemail){
+                        alert("Các thông tin đã chính xác");
+                    }
+                }
+            })
+        })
+    </script>
+</body>
+</html>

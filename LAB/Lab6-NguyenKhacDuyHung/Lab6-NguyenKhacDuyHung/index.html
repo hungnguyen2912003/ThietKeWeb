@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>63132095_NguyenKhacDuyHung</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <section class="container forms">
+        <div class="form login">
+            <div class="form-content">
+                <header>Đăng Nhập</header>
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" class="username" id="username" required>
+                        <i class='bx bx-user user-icon icon'></i>
+                        <label>Tên đăng nhập</label>
+                    </div>
+
+                    <div class="input-field">
+                        <input type="password" class="password" id="password" required>
+                        <i class='bx bx-hide eye-icon icon'></i>
+                        <label>Mật khẩu</label>
+                    </div>
+
+                    <div class="remember-password">
+                        <label>
+                            <input type="checkbox">
+                        Nhớ mật khẩu</label><a href="#" class="forgot-pass">Quên mật khẩu?</a>
+                    </div>
+
+                    <div class="field button-field">
+                        <button onclick="login()">Đăng nhập</button>
+                    </div>
+                </form>
+
+                <div class="form-link">
+                    <span>Bạn chưa có tài khoản? <a href="#" class="link signup-link">Đăng ký ngay</a></span>
+                </div>
+            </div>
+
+            <div class="line">
+                <hr>
+                <span>Hoặc</span>
+                <hr>
+            </div>
+
+            <div class="media-options">
+                <a href="https://www.facebook.com/" class="field facebook">
+                    <i class='bx bxl-facebook facebook-icon'></i>
+                    <span>Đăng nhập với Facebook</span>
+                </a>
+            </div>
+
+            <div class="media-options">
+                <a href="https://www.gmail.com/" class="field google">
+                    <img src="images/google.png" alt="" class="google-img">
+                    <span>Đăng nhập với Google</span>
+                </a>
+            </div>
+
+        </div>
+
+        <!-- Signup Form -->
+
+        <div class="form signup">
+            <div class="form-content">
+                <header>Đăng Ký</header>
+                <form action="#" id="signup-form">
+                    <div class="input-field">
+                        <input type="text" class="username" id="username-sgup" required>
+                        <i class='bx bx-user user-icon icon'></i>
+                        <label>Nhập tên đăng nhập</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" class="email" id="email-sgup" required>
+                        <i class='bx bx-envelope icon'></i>
+                        <label>Nhập email</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="password" id="pwd-sgup" required>
+                        <i class='bx bx-hide eye-icon icon'></i>
+                        <label>Nhập mật khẩu</label>
+                    </div>
+
+                    <div class="input-field">
+                        <input type="password" class="password" id="cofirm-pwd-sgup" required>
+                        <i class='bx bx-hide eye-icon icon'></i>
+                        <label>Xác nhận mật khẩu</label>
+                    </div>
+
+                    <div class="field button-field">
+                        <button onclick="signup()">Đăng Ký</button>
+                    </div>
+                </form>
+
+                <div class="form-link">
+                    <span>Bạn đã có tài khoản? <a href="#" class="link login-link">Đăng nhập ngay</a></span>
+                </div>
+            </div>
+
+            <div class="line">
+                <hr>
+                <span>Hoặc</span>
+                <hr>
+            </div>
+
+            <div class="media-options">
+                <a href="https://www.facebook.com/" class="field facebook">
+                    <i class='bx bxl-facebook facebook-icon'></i>
+                    <span>Đăng ký với Facebook</span>
+                </a>
+            </div>
+
+            <div class="media-options">
+                <a href="https://www.gmail.com/" class="field google">
+                    <img src="images/google.png" alt="" class="google-img">
+                    <span>Đăng ký với Google</span>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <script src='main.js'></script>
+</body>
+</html>

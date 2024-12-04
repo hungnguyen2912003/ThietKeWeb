@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>63132095-NguyenKhacDuyHung</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="display">
+            <h4>SỐ DƯ CỦA TÔI</h4>
+            <span id="total"></span>
+        </div>
+        <div class="wallet">
+            <h4>RÚT TIỀN MẶT</h4>
+            <div class="input">
+                <span>đ</span>
+                <input type="text" id="input-amount">
+                <button id="all">Tất cả</button>
+            </div>
+            <ul>
+                <li id="tasks" class="task1">
+                    <span><i class="fa-solid fa-clipboard-list"></i>Nhiệm vụ 1</span>
+                    <span>+<span id="reward1" class="reward"></span> VND</span>
+                    <i class="fa-solid fa-chevron-right"></i>
+                </li>
+                <li id="tasks" class="task2">
+                    <span><i class="fa-solid fa-clipboard-list"></i>Nhiệm vụ 2</span>
+                    <span>+<span id="reward2" class="reward"></span> VND</span>
+                    <i class="fa-solid fa-chevron-right"></i>
+                </li>
+                <li id="tasks" class="task3">
+                    <span><i class="fa-solid fa-clipboard-list"></i>Nhiệm vụ 3</span>
+                    <span>+<span id="reward3" class="reward"></span> VND</span>
+                    <i class="fa-solid fa-chevron-right"></i>
+                </li>
+                <li id="tasks" class="task4">
+                    <span><i class="fa-solid fa-clipboard-list"></i>Nhiệm vụ 4</span>
+                    <span>+<span id="reward4" class="reward"></span> VND</span>
+                    <i class="fa-solid fa-chevron-right"></i>
+                </li>
+            </ul>
+            <div class="btnrut">
+                <button id="ruttien">Rút tiền</button>
+            </div>
+        </div>
+        <div id="popup-container">
+            <div class="overlay"></div>
+            <div class="content">
+                <div class="popup popup1">
+                    <div class="popup-content">
+                        <div class="btn1">
+                            <button id="btnclose">&times;</button>
+                        </div>
+                        <h2 id="popup-title">Thông tin nhiệm vụ</h2>
+                        <p class="popup-item">Mã nhiệm vụ: <span id="popup-id"></span></p>
+                        <p class="popup-item">Tên nhiệm vụ: <span id="popup-name">LIKE</span></p>
+                        <p class="popup-item">Thời gian hoàn thành: <span id="popup-date">29-01-2023</span></p>
+                        <p class="popup-item">Trạng thái: <span id="popup-status">Hoàn thành</span></p>
+                        <p class="popup-item">Số tiền nhận được: <span id="popup-reward"></span></p>
+                        <div class="btn2">
+                            <button id="btnagree">Đồng ý</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="popup popup2">
+                    <div class="popup-content">
+                        <div class="btn1">
+                            <button id="btnclose">&times;</button>
+                        </div>
+                        <h2 id="popup-title">Thông tin nhiệm vụ</h2>
+                        <p class="popup-item">Mã nhiệm vụ: <span id="popup-id"></span></p>
+                        <p class="popup-item">Tên nhiệm vụ: <span id="popup-name">SHARE</span></p>
+                        <p class="popup-item">Thời gian hoàn thành: <span id="popup-date">29-04-2023</span></p>
+                        <p class="popup-item">Trạng thái: <span id="popup-status">Hoàn thành</span></p>
+                        <p class="popup-item">Số tiền nhận được: <span id="popup-reward"></span></p>
+                        <div class="btn2">
+                            <button id="btnagree">Đồng ý</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="popup popup3">
+                    <div class="popup-content">
+                        <div class="btn1">
+                            <button id="btnclose">&times;</button>
+                        </div>
+                        <h2 id="popup-title">Thông tin nhiệm vụ</h2>
+                        <p class="popup-item">Mã nhiệm vụ: <span id="popup-id"></span></p>
+                        <p class="popup-item">Tên nhiệm vụ: <span id="popup-name">SUBSCRIBE</span></p>
+                        <p class="popup-item">Thời gian hoàn thành: <span id="popup-date">31-12-2022</span></p>
+                        <p class="popup-item">Trạng thái: <span id="popup-status">Hoàn thành</span></p>
+                        <p class="popup-item">Số tiền nhận được: <span id="popup-reward"></span></p>
+                        <div class="btn2">
+                            <button id="btnagree">Đồng ý</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="popup popup4">
+                    <div class="popup-content">
+                        <div class="btn1">
+                            <button id="btnclose">&times;</button>
+                        </div>
+                        <h2 id="popup-title">Thông tin nhiệm vụ</h2>
+                        <p class="popup-item">Mã nhiệm vụ: <span id="popup-id"></span></p>
+                        <p class="popup-item">Tên nhiệm vụ: <span id="popup-name">COMMENT</span></p>
+                        <p class="popup-item">Thời gian hoàn thành: <span id="popup-date">28-02-2023</span></p>
+                        <p class="popup-item">Trạng thái: <span id="popup-status">Hoàn thành</span></p>
+                        <p class="popup-item">Số tiền nhận được: <span id="popup-reward"></span></p>
+                        <div class="btn2">
+                            <button id="btnagree">Đồng ý</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function(){
+            var ranNum1 = Math.floor(Math.random() * (1000000 - 100000 + 1) + 100000);
+            var ranNum2 = Math.floor(Math.random() * (1000000 - 100000 + 1) + 100000);
+            var ranNum3 = Math.floor(Math.random() * (1000000 - 100000 + 1) + 100000);
+            var ranNum4 = Math.floor(Math.random() * (1000000 - 100000 + 1) + 100000);
+            $('#reward1').text(ranNum1);
+            $('.popup1 .popup-content #popup-reward').text(ranNum1);
+            $('#reward2').text(ranNum2);
+            $('.popup2 .popup-content #popup-reward').text(ranNum2);
+            $('#reward3').text(ranNum3);
+            $('.popup3 .popup-content #popup-reward').text(ranNum3);
+            $('#reward4').text(ranNum4);
+            $('.popup4 .popup-content #popup-reward').text(ranNum4);
+            var total = 0;
+            $("li span.reward").each(function(){
+                total += parseInt($(this).text().trim());
+            });
+            $("span#total").text(total);
+
+            $("#ruttien").click(function(){
+                var amount = parseInt($("#input-amount").val().trim());
+                if(amount === null || isNaN(amount)){
+                    alert("Vui lòng nhập số tiền cần rút!");
+                    return;
+                }
+                else if(amount != ''){
+                    if(amount > parseInt($("#total").text())){
+                    if($("#total").text() > 0){
+                        alert("Số tiền nhập vượt quá số dư trong ví. Vui lòng nhập lại!");
+                        return;
+                    }
+                    else if($("#total").text() == 0){
+                        alert("Bạn không đủ số dư để rút tiền!");
+                        return;
+                    }
+                    }else{
+                        total -= amount;
+                        $("#total").text(total);
+                        $("#input-amount").val("");
+                        alert("Bạn đã rút " + amount + " VND thành công. Số dư hiện tại là " + total + " VND");
+                    }
+                }
+            });
+            $("button#all").click(function(){
+                $("#input-amount").val($("#total").text());
+            });
+
+            $('.wallet ul li').click(function(){
+                if($(this).hasClass('task1')){
+                    $('.popup1').addClass('active');
+                }
+                if($(this).hasClass('task2')){
+                    $('.popup2').addClass('active');
+                }
+                if($(this).hasClass('task3')){
+                    $('.popup3').addClass('active');
+                }
+                if($(this).hasClass('task4')){
+                    $('.popup4').addClass('active');
+                }
+                $('.overlay').addClass('active');
+                var taskid = Math.floor(Math.random()*9000)+1000;
+                $('span#popup-id').text(taskid);
+                
+            })
+            $("#btnclose, #btnagree").click(function(){
+                    $('.overlay').removeClass('active');
+                    if($('.popup1')){
+                        $('.popup1').removeClass('active');
+                    }
+                    if($('.popup2')){
+                        $('.popup2').removeClass('active');
+                    }
+                    if($('.popup3')){
+                        $('.popup3').removeClass('active');
+                    }
+                    if($('.popup4')){
+                        $('.popup4').removeClass('active');
+                    }
+            });
+        });
+    </script>
+</body>
+</html>

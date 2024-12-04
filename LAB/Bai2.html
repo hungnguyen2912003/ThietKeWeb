@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Các ví dụ</title>
+</head>
+<body>
+    <a href="https://www.google.com.vn">Tìm kiếm bằng Google</a>
+    <a href="../myfolder/sample.htm">Link tới trang sample</a>
+    <a href="mailto:abc@yahoo.com">
+            Link tới email abc@yahoo.com
+    </a>
+
+    <h4>Nhóm 2 ô hàng ngang thành 1 ô</h4>
+
+    <table border="2">
+        <tr>
+            <td style="text-align: center;"><b>Name</b></td>
+            <td colspan="2" style="text-align: center; "><b>Telephone</b></td>
+        </tr>
+        <tr>
+            <td>Bill Gates</td>
+            <td>555 77 854</td>
+            <td>555 77 855</td>
+        </tr>
+    </table>
+
+    <h4>Nhóm 2 ô hàng dọc thành 1 ô</h4>
+    <table border="2">
+        <tr>
+            <td>First Name:</td>
+            <td>Bill Gates</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Telephone:</td>
+            <td>555 77 854</td>
+        </tr>
+        <tr>
+            <td>555 777 855</td>
+        </tr>
+    </table>
+
+    <ul>
+        <li type="circle">Bò beefsteak</li>
+        <li type="disc">Salad trộn</li>
+        <li type="square">Nước trái cây ép</li>
+    </ul>
+
+    <img src="planets.gif" width="145" height="126" alt="planets">
+
+    <br>
+
+    <video autoplay controls loop poster="img/video.jpg">
+        <source src="multimedia/movie.mp4" type="video/mp4">
+        <source src="multimedia/movie.ogg" type="video/ogg">
+            Your brower does not support the video tag.
+    </video>
+    <br>
+    <form action="form_action.php" method="get">
+    <fieldset>
+        <legend>Member Information</legend>
+        <label for="name">Full Name:</label>
+            <input type="text" name="name" id="fname" size="30" />
+        <br />
+        <label for="pwd">Password:</label>
+            <input type="password" name="pwd" id="pw" size="30" />
+        <br />
+        <label for="addr">Address:</label>
+            <textarea name="addr" id="feedback" rows="10"   cols="30"></textarea><br />
+        <input type="submit" value="Submit" id="submit"/>
+        <input type="reset" value="Reset" id="reset"/>
+    </fieldset>
+    </form>
+
+    <br>
+
+    <form>
+        <input type="radio" name="sex"  value="male" checked="checked"/> Male
+        <br/>
+        <input type="radio" name="sex"  value="female"/> Female
+    </form>
+    <br>
+    <form>
+        <input type="checkbox" name="bike" checked="checked"/>I have a bike
+        <br>
+        <input type="checkbox" name="car"/>I have a car
+    </form>
+    <br>
+    <select>
+        <option value="1">Toyota</option>
+        <option value="2" selected="selected">Honda</option>
+        <option value="3">Mercedes</option>
+        <option value="4">Ford</option>
+    </select>
+    <br>
+    <select>
+        <optgroup label="Swedish Cars">
+            <option value="volvo">Voldo</option>
+            <option value="saab">Saab</option>
+        </optgroup>
+        <optgroup label="German Cars">
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+        </optgroup>
+    </select>
+    <br>
+    <div>
+        <p>Cộng Hoà Xã Hội Chủ Nghĩa Việt Nam</p>
+        <p>Độc Lập-<span>Tự do</span>-Hạnh phúc</p>
+    </div>
+</body>
+</html>

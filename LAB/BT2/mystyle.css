@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+table{
+    width: 100%;
+    font-size: 40px;
+    border-spacing: 20px;
+}
+td{
+    border: 7px solid;
+}
+#h1{
+    text-align: center;
+    position: relative;
+    top: -20px;
+}
+.h2{
+    text-align: center;
+    position: relative;
+    top: -150px;
+}
+#row1{
+    height: 150px;
+}
+#row2{
+    height: 520px;
+}
+#row3{
+    height: 50px;
+    text-align: center;
+}
+#h{
+    border-color: rgb(209, 71, 209);
+}
+#sl{
+    border-color: blue;
+}
+#c{
+    border-color: red;
+    width: 70%;
+}
+#sr{
+    border-color: yellow;
+}
+#f{
+    border-color: green;
+}

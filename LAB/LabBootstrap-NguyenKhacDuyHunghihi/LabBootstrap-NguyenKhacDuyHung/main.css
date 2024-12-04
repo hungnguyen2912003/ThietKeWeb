@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo-content span{
+    font-size: 28px;
+}
+
+.logo-content h5{
+    font-size: 16px;
+    color: #E2E0D7;
+}
+
+.nav-item{
+    padding-right: 20px;
+}
+
+.nav-item a{
+    font-size: 20px;
+}
+
+.carousel-item img{
+    height: 500px;
+}
+
+.carousel-caption{
+    top: 150px;
+}
+
+.carousel-caption h5{
+    font-size: 50px;
+}
+
+.carousel-caption p{
+    font-size: 25px;
+}
+
+.carousel-caption .btn{
+    font-size: 18px;
+    padding: 10px 30px;
+}
+
+.slide1 h5{
+    font-weight: bold;
+    color: #ff166b;
+}
+
+.slide1 p{
+    color: #e66262;
+    font-weight: 500;
+}
+
+.slide1 .btn{
+    background-color: #D27F87;
+    color: #990543;
+}
+
+.carousel-caption .btn:hover{
+    background-color: #000000;
+    color: #fff;
+}
+
+.slide2 h5{
+    font-weight: bold;
+    color: #16cdff;
+}
+
+.slide2 p{
+    color: #10a0ee;
+}
+
+.slide2 .btn{
+    background-color: #07a7f1;
+    color: #260bbd;
+}
+
+.slide3 h5{
+    font-weight: bold;
+    color: #ffb516;
+}
+
+.slide3 p{
+    color: #ee6910;
+}
+
+.slide3 .btn{
+    background-color: #f18007;
+    color: #fbde03;
+}
+
+.card-title{
+    font-size: 24px;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.card-price{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card-text{
+    height: 160px;
+}
+
+.card-footer{
+    text-align: center;
+}
+
+.card-footer img{
+    width: 20px;
+}

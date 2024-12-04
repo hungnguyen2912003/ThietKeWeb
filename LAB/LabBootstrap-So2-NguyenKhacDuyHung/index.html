@@ -1,0 +1,461 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Lab2Bootstrap-63132095</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div class="container">
+        <nav class="navbar navbar-expand-sm navbar-light fixed-top">
+            <a class="navbar-brand d-flex text-primary" href="#">
+                <h1>Q</h1>
+                <span class="d-flex align-items-center">uick shop</span>
+            </a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item active px-3">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown px-3">
+                        <a class="nav-link" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Products</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a class="dropdown-item" href="#">Product 1</a>
+                            <a class="dropdown-item" href="#">Product 2</a>
+                            <a class="dropdown-item" href="#">Product 3</a>
+                        </div>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item pl-3">
+                        <button type="button" class="btn btn-dark px-4 py-2 bg-primary" style="border: none;" data-toggle="modal" data-target="#dangnhap">
+                            Login
+                        </button>
+                        <div class="modal fade" id="dangnhap" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">Đăng nhập</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <!--Form đăng nhập-->
+                                        <form>
+                                            <div class="form-group">
+                                              <label for="email">Email: </label>
+                                              <input type="email" name="email" id="email" class="form-control" placeholder="Nhập email">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="pass">Mật khẩu: </label>
+                                                <input type="password" name="pass" id="pass" class="form-control" placeholder="Nhập mật khẩu">
+                                            </div>
+                                            <div class="form-check">
+                                              <label class="form-check-label">
+                                                <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue" checked>
+                                                Ghi nhớ mật khẩu
+                                              </label>
+                                            </div>
+                                            <button type="button" name="" id="submitBtn" class="btn btn-primary">Đăng nhập</button>
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="container d-flex justify-content-center align-items-center mt-5 pb-5">
+        <div class="col-5">
+            <h1>Lorem ipsum dolor sit amet consectetur <span class="text-primary">adipisicing elit.</span></h1>
+            <p class="text-muted py-3">Necessitatibus nobis perspiciatis explicabo tenetur, incidunt eos saepe adipisci dolores quisquam.</p>
+            <button type="button" class="btn btn-primary text-light px-4 py-2">Get started <i class="fa fa-angle-right ml-2" aria-hidden="false"></i></button>
+        </div>
+        <div class="col-6 offset-1">
+            <img src="images/illustration-3.svg" class="d-block w-100">
+        </div>
+    </div> 
+
+    <div class="container-fluid bg-light pt-4">
+        <div class="col text-center">
+            <button type="button" name="" id="" class="btn mt-5 mb-3 px-3" style="background-color: #DEF4ED; color: #63b695; border-radius: 20px;">Get started</button>
+            <div class="col-6 offset-3">
+                <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+            </div>
+            <div class="col-6 offset-3">
+                <p class="text-muted" style="font-size: 1.6rem;">Quia beatae, iusto voluptatum ad aperiam consequuntur aut aliquam.</p>
+            </div>
+        </div>
+        <div class="container mt-5" style="padding-bottom: 100px;">
+            <div class="card-deck">
+                <div class="card pb-4" style="border-radius: 15px;">
+                  <img class="card-img-top" src="images/illustration-5.svg" alt="Card image cap">
+                  <div class="card-body">
+                    <h4 class="card-title">Lorem ipsum dolor</h4>
+                    <p class="card-text text-muted">
+                        Dicta hic possimus amet corrupti saepe nulla libero voluptatem, eum voluptates quasi? 
+                        Illum itaque dolores molestiae hic reprehenderit voluptatum assumenda.
+                    </p>
+                  </div>
+                </div>
+                <div class="card pd-4" style="border-radius: 15px;">
+                  <img class="card-img-top img-size" src="images/illustration-6.svg" alt="Card image cap">
+                  <div class="card-body">
+                    <h4 class="card-title">Lorem ipsum dolor</h4>
+                    <p class="card-text text-muted">
+                        Dicta hic possimus amet corrupti saepe nulla libero voluptatem, eum voluptates quasi? 
+                        Illum itaque dolores molestiae hic reprehenderit voluptatum assumenda.
+                    </p>
+                  </div>
+                </div>
+                <div class="card pb-4" style="border-radius: 15px;">
+                  <img class="card-img-top img-size" src="images/illustration-7.svg" alt="Card image cap">
+                  <div class="card-body">
+                    <h4 class="card-title">Lorem ipsum dolor</h4>
+                    <p class="card-text text-muted">
+                        Dicta hic possimus amet corrupti saepe nulla libero voluptatem, eum voluptates quasi? 
+                        Illum itaque dolores molestiae hic reprehenderit voluptatum assumenda.
+                    </p>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="padding: 100px 0px;">
+        <div class="row">
+            <div class="col-5">
+                <img src="images/Picture2.png" class="d-block w-100" style="border-radius: 15px; border: 8px solid rgb(252, 252, 252);">
+            </div>
+            <div class="col-5 offset-2 mt-3">
+                <h3 style="color: #152C5B;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                <p class="text-muted py-4">Odit ad nam, excepturi recisamdae porro architecto repellat nostrym odio provident earum totam eveniet 
+                    dolores alias et officia facere facilis, obcaecati illum.
+                </p>
+                <p style="color: #576789; font-weight: 500;"><i class="fa-sharp fa-solid fa-file-invoice fa-sm mr-3" style="background-color: #008AFF; color: #fff; padding: 15px 10px; border-radius: 50%;"></i>Lorem ipsum dolor sit amet</p>
+                <p style="color: #576789; font-weight: 500;"><i class="fa-solid fa-shop fa-xs mr-3" style="background-color: #008AFF; color: #fff; padding: 15px 8px; border-radius: 50%;"></i>Lorem ipsum dolor sit amet</p>
+            </div>
+        </div>
+        <div class="row pt-5">
+            <div class="col-5">
+                <h3 style="color: #152C5B;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                <p class="text-muted py-4">Nemo laborum laudantium soluta sed, saepe natus iure, cupiditate sequi 
+                    dolorem architecto in nostrum quisquam recusandae? Voluptate sunt dolor repidiandae officiis. At.
+                </p>
+                <p style="color: #576789; font-weight: 500;"><i class="fa-sharp fa-solid fa-file-invoice fa-sm mr-3" style="background-color: #008AFF; color: #fff; padding: 15px 10px; border-radius: 50%;"></i>Lorem ipsum dolor sit amet</p>
+                <p style="color: #576789; font-weight: 500;"><i class="fa-solid fa-shop fa-xs mr-3" style="background-color: #008AFF; color: #fff; padding: 15px 8px; border-radius: 50%;"></i>Lorem ipsum dolor sit amet</p>
+                <p style="color: #576789; font-weight: 500;"><i class="fa-solid fa-shop fa-xs mr-3" style="background-color: #008AFF; color: #fff; padding: 15px 8px; border-radius: 50%;"></i>Lorem ipsum dolor sit amet</p>
+            </div>
+            <div class="col-5 offset-2 mt-3 d-flex align-items-center">
+                <img src="images/Picture3.png" class="d-block w-100" style="border-radius: 15px; border: 8px solid rgb(252, 252, 252);">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="background-color: #0E0B2B; height: 70vh; padding-top: 120px;">
+        <div class="col text-center text-light">
+            <div class="col-6 offset-3">
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+            </div>
+            <div class="col-6 offset-3">
+                <p style="font-size: 1.3rem; padding: 15px 0px;">Itaque natus alias iusto aspernatur laboriosam at commodi..</p>
+            </div>
+            <button type="button" name="" id="" class="btn btn-primary px-4 py-2">Learn more</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card-deck">
+            <div class="card card-pos py-3" style="border-radius: 20px; box-shadow: 0 1px 8px 0 rgba(68, 68, 68, 0.27);">
+              <div class="card-body d-flex pt-5">
+                <div class="col-4">
+                    <span class="bg-warning text-light" style="border-radius: 20px; padding: 5px 16px 8px 16px; font-weight: 500;">New</span>
+                </div>
+                <div class="col-8">
+                    <h5 style="color: #152C5B;">Lorem ipsum dolor.</h5>
+                    <p style="color: #7A879D;">Beatae excepturi temporibus tempore amini iusto nihil mixime!</p>
+                </div>
+              </div>
+            </div>
+            <div class="card card-pos py-3" style="border-radius: 20px; box-shadow: 0 1px 8px 0 rgba(68, 68, 68, 0.27);">
+                <div class="card-body d-flex justify-content-center pt-5">
+                  <div class="col-4">
+                      <span class="text-light" style="border-radius: 20px; padding: 5px 16px 8px 16px; background-color: #5CC9A7; font-weight: 500;">Tips</span>
+                  </div>
+                  <div class="col-8">
+                      <h5 style="color: #152C5B;">Lorem ipsum dolor.</h5>
+                      <p style="color: #7A879D;">Beatae excepturi temporibus tempore amini iusto nihil mixime!</p>
+                  </div>
+                </div>
+            </div>
+            <div class="card card-pos py-3" style="border-radius: 20px; box-shadow: 0 1px 8px 0 rgba(68, 68, 68, 0.27);">
+                <div class="card-body d-flex justify-content-center pt-5">
+                  <div class="col-5">
+                      <span class="text-light" style="border-radius: 20px; padding: 5px 16px 8px 16px; background-color: #F25767; font-weight: 500;">Update</span>
+                  </div>
+                  <div class="col-7">
+                      <h5 style="color: #152C5B;">Lorem ipsum dolor.</h5>
+                      <p style="color: #7A879D;">Beatae excepturi temporibus!</p>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="card-deck mt-4">
+            <div class="card card-pos py-3" style="border-radius: 20px; box-shadow: 0 1px 8px 0 rgba(68, 68, 68, 0.27);">
+              <div class="card-body d-flex pt-5">
+                <div class="col-4">
+                    <span class="bg-warning text-light" style="border-radius: 20px; padding: 5px 16px 8px 16px; font-weight: 500;">New</span>
+                </div>
+                <div class="col-8">
+                    <h5 style="color: #152C5B;">Lorem ipsum dolor.</h5>
+                    <p style="color: #7A879D;">Beatae excepturi temporibus tempore amini iusto nihil mixime!</p>
+                </div>
+              </div>
+            </div>
+            <div class="card card-pos py-3" style="border-radius: 20px; box-shadow: 0 1px 8px 0 rgba(68, 68, 68, 0.27);">
+                <div class="card-body d-flex justify-content-center pt-5">
+                  <div class="col-4">
+                      <span class="text-light" style="border-radius: 20px; padding: 5px 16px 8px 16px; background-color: #5CC9A7; font-weight: 500;">Tips</span>
+                  </div>
+                  <div class="col-8">
+                      <h5 style="color: #152C5B;">Lorem ipsum dolor.</h5>
+                      <p style="color: #7A879D;">Beatae excepturi temporibus tempore amini iusto nihil mixime!</p>
+                  </div>
+                </div>
+            </div>
+            <div class="card card-pos py-3" style="border-radius: 20px; box-shadow: 0 1px 8px 0 rgba(68, 68, 68, 0.27);">
+                <div class="card-body d-flex justify-content-center pt-5">
+                  <div class="col-5">
+                      <span class="text-light" style="border-radius: 20px; padding: 5px 16px 8px 16px; background-color: #F25767; font-weight: 500;">Update</span>
+                  </div>
+                  <div class="col-7">
+                      <h5 style="color: #152C5B;">Lorem ipsum dolor.</h5>
+                      <p style="color: #7A879D;">Beatae excepturi temporibus!</p>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="col-6">
+            <span class="bg-primary text-light" style="border-radius: 20px; padding: 5px 20px 8px 20px; font-weight: 500;">KPI</span>
+            <h5 class="py-5" style="color: #152C5B;">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Dolorum soluta possimus, eius placeat similique dolorem ex 
+            quis error id nostrym nulla aut non quas alias eum numquam 
+            voluptates doloremque beatae.
+            </h5>
+        </div>
+        <div class="card-deck">
+            <div class="card" style="border-radius: 10px;">
+                <div class="row align-items-center pl-3">
+                    <div class="col-2">
+                        <i class="fa-solid fa-check bg-warning text-light p-3" style="border-radius: 50%;"></i>
+                    </div>
+                    <div class="col-10 pt-3 pl-4">
+                        <h5 style="color: #152C5B;">100% Reponsive</h5>
+                        <p style="color: #7A879D;">Build to be customized.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card" style="border-radius: 10px;">
+                <div class="row align-items-center pl-3">
+                    <div class="col-2">
+                        <i class="fa-solid fa-check bg-primary text-light p-3" style="border-radius: 50%;"></i>
+                    </div>
+                    <div class="col-10 pt-3 pl-4">
+                        <h5 style="color: #152C5B;">Based on Bootstrap 4</h5>
+                        <p style="color: #7A879D;">Build to be customized.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card" style="border-radius: 10px;">
+                <div class="row align-items-center pl-3">
+                    <div class="col-2">
+                        <i class="fa-solid fa-check text-light p-3" style="border-radius: 50%; background-color: #F25767;"></i>
+                    </div>
+                    <div class="col-10 pt-3 pl-4">
+                        <h5 style="color: #152C5B;">Build with SCSS</h5>
+                        <p style="color: #7A879D;">Build to be customized.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card-deck pt-5" style="padding-bottom: 100px;">
+            <div class="card" style="border-radius: 10px;">
+                <div class="row align-items-center pl-3">
+                    <div class="col-2">
+                        <i class="fa-solid fa-check text-light p-3" style="border-radius: 50%; background-color: #5CC9A7;"></i>
+                    </div>
+                    <div class="col-10 pt-3 pl-4">
+                        <h5 style="color: #152C5B;">Build with ReactJS</h5>
+                        <p style="color: #7A879D;">Build to be customized.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card" style="border-radius: 10px;">
+                <div class="row align-items-center pl-3">
+                    <div class="col-2">
+                        <i class="fa-solid fa-check text-light p-3" style="border-radius: 50%; background-color: #F25767;"></i>
+                    </div>
+                    <div class="col-10 pt-3 pl-4">
+                        <h5 style="color: #152C5B;">Build with TailwindCSS</h5>
+                        <p style="color: #7A879D;">Build to be customized.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card" style="border-radius: 10px;">
+                <div class="row align-items-center pl-3">
+                    <div class="col-2">
+                        <i class="fa-solid fa-check bg-primary text-light p-3" style="border-radius: 50%;"></i>
+                    </div>
+                    <div class="col-10 pt-3 pl-4">
+                        <h5 style="color: #152C5B;">Intellisence HTML & CSS</h5>
+                        <p style="color: #7A879D;">Build to be customized.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-light text-center" style="padding-top: 60px;">
+        <div class="col-6 offset-3">
+            <h1 style="color: #152C5B; font-size: 50px;">Lorem ipsum, dolor sit amet</h1>
+        </div>
+        <div class="col-8 offset-2 pt-3">
+            <h5 style="color: #7594B7; padding-bottom: 50px; font-weight: 500;">Assumenda rem qui tempore odio in magni vitae commodi possimus nisi, optio, sint tempora quidem 
+                mollitia retione repellat earum id. Eos, amet..
+            </h5>
+        </div>
+        <div class="container d-flex">
+            <div class="col-5 offset1">
+                <div class="card pb-4" style="border-radius: 15px;">
+                    <div class="card-body" style="padding-top: 70px;">
+                      <h1 class="card-title" style="color: #182D5B; letter-spacing: 2px; font-size: 50px;">VND<span style="font-weight: 700;">150000</span></h1>
+                      <h4 class="card-text" style="color: #A7B1BE; font-weight: 500; padding-bottom: 100px;">PowerBI Desktop</h4>
+                      <p class="mb-4" style="color: #A7B1BE; font-weight: 500; font-size: 18px;">Lorem ipsum</p>
+                      <p class="mb-4" style="color: #A7B1BE; font-weight: 500; font-size: 18px;">Lorem ipsum dolor sit amet</p>
+                      <p class="mb-4" style="color: #A7B1BE; font-weight: 500; font-size: 18px;">Lorem ipsum dolor sit amet consectetur</p>
+                      <p class="mb-4" style="color: #A7B1BE; font-weight: 500; padding-bottom: 50px; font-size: 18px;">Lorem ipsum dolor sit amet</p>
+                      <button type="button" class="btn btn-warning text-light" style="padding: 10px 20px; font-weight: 500;">Register now</button>
+                    </div>
+                </div>
+            </div>  
+            <div class="col-5 offset-1">
+                <div class="card pb-4 text-light" style="border-radius: 15px; background-color: #171347;">
+                    <div class="card-body" style="padding-top: 70px;">
+                      <h1 class="card-title" style="font-size: 50px;">VND<span style="font-weight: 700;">5090000</span></h1>
+                      <h4 class="card-text" style="color: #E9F9E6; font-weight: 500; padding-bottom: 100px;">Proffession</h4>
+                      <p class="mb-4" style="color: #DCEFF6; font-weight: 500; font-size: 18px;">Lorem ipsum</p>
+                      <p class="mb-4" style="color: #DCEFF6; font-weight: 500; font-size: 18px;">Lorem ipsum dolor sit amet</p>
+                      <p class="mb-4" style="color: #DCEFF6; font-weight: 500; font-size: 18px;">Lorem ipsum dolor sit amet</p>
+                      <p class="mb-4" style="color: #DCEFF6; font-weight: 500; font-size: 18px;">Lorem ipsum dolor sit amet</p>
+                      <p class="mb-4" style="color: #DCEFF6; font-weight: 500; font-size: 18px;">Lorem ipsum dolor sit amet consectetur</p>
+                      <p class="mb-4" style="color: #DCEFF6; font-weight: 500; padding-bottom: 50px; font-size: 18px;">Lorem ipsum <span style="color: #55C99B; border-bottom: 2px dashed;">dolor</span></p>
+                      <button type="button" class="btn btn-light" style="padding: 10px 20px; font-weight: 500;">Register now</button>
+                    </div>
+                </div>
+            </div>  
+        </div>
+        <div class="contact" style="margin-top: 100px; padding-bottom: 100px;">
+            <div class="col-6 offset-3">
+                <h5 style="color: #7594B7; font-weight: 500;">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. ... more
+                </h5>
+            </div>
+            <div class="col-2 offset-5 pt-3 contact-btn">
+                <a href="#" class="active text-decoration-none" style="font-size: 20px; color: #0D9AFF; border: none; border-bottom: 2px dashed;">
+                    Contact us <i class="fa fa-arrow-right pl-2"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid text-light" style="background-color: #171347;">
+        <div class="container d-flex" style="padding-top: 100px; border-bottom: 1px solid #7a879d3b;">
+            <div class="col-5">
+                <h3 class="text-primary mb-5">Quick shop</h3>
+                <h5 class="mb-5" style="color: #A7B1BE">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta, ipsam pariatur hic reprehenderit vel 
+                    perferendis dolores commodi fugit possimus placeat vero culpa temporibus ad dolorum eveniet asperiores ipsa sed. Atque.
+                </h5>
+                <div class="social mb-5" style="font-size: 25px; color: #A7B1BE">
+                    <i class="fa-brands fa-dribbble pr-5"></i>
+                    <i class="fa-brands fa-github pr-5"></i>
+                    <i class="fa-brands fa-instagram pr-5"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+            </div>
+            <div class="col-2 offset-1">
+                <h5 class="mb-4">Account</h5>
+                <h5 style="color: #9FADBF;">Profile</h5>
+                <h5 style="color: #9FADBF;">Settings</h5>
+                <h5 style="color: #9FADBF;">Billing</h5>
+                <h5 style="color: #9FADBF;">Notifications</h5>
+            </div>
+            <div class="col-2">
+                <h5 class="mb-4">About</h5>
+                <h5 style="color: #9FADBF;">Services</h5>
+                <h5 style="color: #9FADBF;">Pricing</h5>
+                <h5 style="color: #9FADBF;">Contact</h5>
+                <h5 style="color: #9FADBF;">Careers</h5>
+            </div>
+            <div class="col-2">
+                <h5 class="mb-4">Company</h5>
+                <h5 style="color: #9FADBF;">Community</h5>
+                <h5 style="color: #9FADBF;">Help center</h5>
+                <h5 style="color: #9FADBF;">Support</h5>
+            </div>
+        </div>
+        <div class="container d-flex py-4">
+            <div class="col-7" style="color: #9FADBF;">
+                <h5>&#169; 2023 <span style="color: #fff;">Nguyễn Khắc Duy Hưng</span> Bootstrap 4 - Web Design</h5>
+            </div>
+            <div class="col-1 offset-2" style="color: #9FADBF;">
+                <h5>Terms</h5>
+            </div>
+            <div class="col-1" style="color: #9FADBF;">
+                <h5>Privacy</h5>
+            </div>
+            <div class="col-1" style="color: #9FADBF;">
+                <h5>Cookies</h5>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+<script>
+    $('#submitBtn').click(function(event){
+        // ngăn chặn form submit mặc định
+        event.preventDefault();
+        // lấy giá trị email và pass
+        var mail = $('#email').val();
+        var pwd = $('#pass').val();
+        // kiểm tra điều kiện đăng nhập
+        if(mail === 'hung.nkd.63cntt@ntu.edu.vn' && pwd === 'Bo094949291'){
+            // thông báo đăng nhập thành công, chuyển về trang đăng nhập.html sau 3s
+            alert('Đăng nhập thành công!');
+            setTimeout(function(){
+                window.location.href = "index.html";
+            }, 3000);
+        }
+        else{
+            alert('Địa chỉ email hoặc mật khẩu không hợp lệ');
+        }
+    })
+</script>

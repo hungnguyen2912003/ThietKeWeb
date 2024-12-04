@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>63132095-NguyenKhacDuyHung</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <!--Menu-->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <!--Nếu Navbar khoảng 80%-->
+        <div class="container-fluid">
+
+            
+            <!--Bên Trái: MENU-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link mx-2" href="#">HÀNG MỚI VỀ <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-2" href="#">DÒNG HÀNG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-2" href="#">SALE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-2" href="#">SẢN PHẨM</a>
+                    </li>
+                    <li class="nav-item dropdown mx-2">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            BỘ SƯU TẬP
+                         </a>
+                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                             <a class="dropdown-item" href="#">BỘ SƯU TẬP 1</a>
+                             <a class="dropdown-item" href="#">BỘ SƯU TẬP 2</a>
+                         </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="logo" style="padding-right: 200px; font-size: 24px; font-weight: bold;">Hưng Nguyễn</div>
+            <form class="form-inline mr-4">
+                <input class="form-control mr-sm-2" type="search" placeholder="Tìm kiếm sản phẩm" aria-label="Search">
+            </form>
+            <!--Bên phải-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#rightmenu" aria-controls="rightmenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="rightmenu">
+                <i class="fa fa-headphones mx-2" style="font-size: 20px;" aria-hidden="true"></i>
+                <a type="button" class="mx-2" data-toggle="modal" data-target="#dangnhap">
+                    <i class="fa-solid fa-user mx-2" style="font-size: 20px;"></i>
+                </a>
+                <i class="fa-solid fa-bag-shopping mx-2" style="font-size: 20px;"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!--Modal đăng nhập-->
+    <div class="modal fade" id="dangnhap" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body text-center px-5">
+                    <!--Form đăng nhập-->
+                    <button type="button" name="" id="" class="btn text-light" style="background-color: black;">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-2 mr-1">
+                                <i class="fa-brands fa-apple" style="font-size: 40px;"></i>
+                            </div>
+                            <div class="col-9 ">
+                                <span>Download on the</span>
+                                <h3>App Store</h3>
+                            </div>
+                        </div>
+                    </button>
+                    <h3 class="py-3">Đăng nhập vào Store</h3>
+                    <!---->
+                    <div class="input-group mb-4">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text d-flex justify-content-center" style="width: 60px;">
+                                <i class="fa-solid fa-user text-muted"></i>
+                            </span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Tên người dùng hoặc email">
+                    </div>  
+                    <div class="input-group mb-4">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text d-flex justify-content-center" style="width: 60px;">
+                                <i class="fa-solid fa-lock text-muted"></i>
+                            </span>
+                        </div>
+                        <input type="password" class="form-control" placeholder="Mật khẩu">
+                    </div>
+                    <!---->
+                    <button type="button" id="" class="btn btn-primary btn-block mb-2" style="font-weight: 500;">Đăng nhập</button>
+                    <!---->
+                    <div class="container-fluid py-3">
+                        <div class="row justify-content-between" style="font-weight: 500;">
+                            <a name="" id="" class="" href="#" role="button">Quên mật khẩu ?</a>
+                            <a name="" id="" class="" href="#" role="button">Tạo tài khoản</a>
+                        </div>
+                    </div>
+                    <!---->
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-4"><hr></div>
+                        <span style="font-weight: 500; font-size:18px;">Đăng nhập bằng</span>
+                        <div class="col-4"><hr></div>
+                    </div>
+                    <!---->
+                    <div class="row py-4 justify-content-between">
+                        <div class="col-4">
+                            <button type="button" name="" id="" class="btn" style="border: 1px solid rgba(182, 182, 182, 0.419); font-weight: 500;"><i class="fa-brands fa-facebook-f" style="color: #2B4E90"></i><span class="pl-2">Facebook</span></button>
+                        </div>
+                        <div class="col-4">
+                            <button type="button" name="" id="" class="btn " style="border: 1px solid rgba(182, 182, 182, 0.419); font-weight: 500;"><i class="fa-brands fa-google" style="color: #E73A0F"></i><span class="pl-2">Google</span></button>
+                        </div>
+                        <div class="col-4">
+                            <button type="button" name="" id="" class="btn " style="border: 1px solid rgba(182, 182, 182, 0.419); font-weight: 500;"><i class="fa-brands fa-github"></i><span class="pl-2">Github</span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Banner-->
+    <div class="container-fluid">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" style="height: 500px;" src="images/banner1.png" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" style="height: 500px;" src="images/banner2.png" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" style="height: 500px;" src="images/banner1.png" alt="Second slide">
+                </div>
+            </div>
+    </div>
+
+    <!---->
+    <div class="container-fluid text-center mt-5">
+        <h2 class="my-4" style="letter-spacing: 4px;">SẢN PHẨM HOT</h2>
+    </div>
+    <div class="container d-flex justify-content-between">
+        <img src="images/new-icon.png" alt="" style="width: 50px; height: 50px; position: relative; bottom: -50px; right: -50px; z-index: 99;">
+        <img src="images/new-icon.png" alt="" style="width: 50px; height: 50px;">
+        <img src="images/new-icon.png" alt="" style="width: 50px; height: 50px;">
+        <img src="images/new-icon.png" alt="" style="width: 50px; height: 50px;">
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="card col-xl-3 col-md-6" style="border: none;">
+              <img class="card-img-top" src="images/sp1.png" alt="Card image cap" style="height: 400px;">
+              <div class="card-body">
+                <i class="fa-regular fa-heart"></i>
+                <p class="card-text">Đầm Xoè Xếp Li, Tay Cánh Tiên, Đính Hoa 2 Cánh Tay</p>
+                <div class="price d-flex">
+                    <h5 style="font-weight: bold;">1,299,500đ</h5>
+                    <span class="pl-2" style="text-decoration: line-through;">2,599,000đ</span>
+                    <button type="button" class="btn btn-dark ml-5">
+                        <i class="fa-solid fa-bag-shopping mx-2" style="font-size: 20px;"></i>
+                    </button>
+                </div>
+              </div>
+            </div>
+            <div class="card col-xl-3 col-md-6" style="border: none;">
+              <img class="card-img-top" src="images/sp1-2.jpeg" alt="Card image cap" style="height: 400px;">
+              <div class="card-body">
+                <i class="fa-regular fa-heart"></i>
+                <p class="card-text">Đầm Xoè Cổ V, Dọc Ngực Đính 2 Hoa, Tay Ngọc</p>
+                <div class="price d-flex">
+                    <h5 style="font-weight: bold;">949,500đ</h5>
+                    <span class="pl-2" style="text-decoration: line-through;">1,899,000đ</span>
+                    <button type="button" class="btn btn-dark ml-5">
+                        <i class="fa-solid fa-bag-shopping mx-2" style="font-size: 20px;"></i>
+                    </button>
+                </div>
+              </div>
+            </div>
+            <div class="card col-xl-3 col-md-6" style="border: none;">
+              <img class="card-img-top" src="images/sp2-2.jpeg" alt="Card image cap" style="height: 400px;">
+              <div class="card-body">
+                <i class="fa-regular fa-heart"></i>
+                <p class="card-text">Đầm Xoè 2 Dây, Đính Hoa To Trước Ngực</p>
+                <div class="price d-flex">
+                    <h5 style="font-weight: bold;">799,500đ</h5>
+                    <span class="pl-2" style="text-decoration: line-through;">1,599,000đ</span>
+                    <button type="button" class="btn btn-dark ml-5">
+                        <i class="fa-solid fa-bag-shopping mx-2" style="font-size: 20px;"></i>
+                    </button>
+                </div>
+              </div>
+            </div>
+            <div class="card col-xl-3 col-md-6" style="border: none;">
+                <img class="card-img-top" src="images/sp3-2.jpeg" alt="Card image cap" style="height: 400px;">
+                <div class="card-body">
+                    <i class="fa-regular fa-heart"></i>
+                    <p class="card-text">Đầm Xoè Chấm Bi, Cổ V, Bên Ngực Đính 2 Hoa</p>
+                    <div class="price d-flex">
+                    <h5 style="font-weight: bold;">999,500đ</h5>
+                    <span class="pl-2" style="text-decoration: line-through;">1,999,000đ</span>
+                    <button type="button" class="btn btn-dark ml-5">
+                        <i class="fa-solid fa-bag-shopping mx-2" style="font-size: 20px;"></i>
+                    </button>
+                </div>
+                </div>
+            </div>
+    </div>
+    </div>
+
+    <div class="container text-center py-5">
+        <button type="button" name="" id="" class="btn" style="border: 3px solid black; padding: 20px 40px; font-weight: 500; border-top-left-radius: 30px; border-bottom-right-radius: 30px;">Xem tất cả</button>
+    </div>
+    
+    <div class="container-fluid d-flex" style="padding-top: 100px; border-top: 1px solid black;">
+        <div class="col-3">
+            <h5 style="font-weight: bold;">CÔNG TY TNHH Hưng Nguyễn</h5>
+            <p><span style="font-weight: bold;">Mã số doanh nghiệp:</span> 012345678</p>
+            <p><span style="font-weight: bold;">Địa chỉ:</span> 1202/4 Hai Tháng Tư</p>
+            <p><span style="font-weight: bold;">Phone:</span> 0898386715</p>
+            <p><span style="font-weight: bold;">Email:</span> hungthinh291@gmail.com</p>
+
+
+            <div class="icon d-flex">
+                <i class="fa-brands fa-facebook-f mr-4"></i>
+                <i class="fa-brands fa-google mr-4"></i>
+                <i class="fa-brands fa-square-instagram mr-4"></i>
+                <i class="fa-brands fa-youtube mr-4 mb-4"></i>
+            </div>
+
+        </div>
+        <div class="col-2">
+            <h5 class="mb-4">Shop Hưng Nguyễn</h5>
+            <h6>Giới thiệu</h6>
+            <h6>Tin tức</h6>
+            <h6>Tuyển dụng</h6>
+            <h6>Hệ thống Showroom</h6>
+        </div>
+        <div class="col-2">
+            <h5 class="mb-4">Hỗ trợ khách hàng</h5>
+            <h6>Tư vấn size</h6>
+            <h6>Hướng dẫn mua hàng</h6>
+            <h6>Gửi yêu cầu hỗ trợ</h6>
+        </div>
+        <div class="col-2">
+            <h5 class="mb-4">Chính sách</h5>
+            <h6>Chính sách thanh toán</h6>
+            <h6>Chính sách đổi trả hàng</h6>
+            <h6>Chính sách khách vip</h6>
+            <h6>Chính sách bảo mật thông tin cá nhân</h6>
+            <h6>Chính sách vận chuyển</h6>
+        </div>
+        <div class="col-3">
+            <!-- <button type="button" name="" id="" class="btn text-light" style="background-color: black; padding: 20px 40px; font-weight: 500; border-top-left-radius: 30px; border-bottom-right-radius: 30px;">
+                <h6>Nhận thông tin ưu đãi từ Hưng Nguyễn</h6>
+                <button type="button" name="" id="" class="btn" style="background-color: white; padding: 20px 40px; font-weight: 500; border-top-left-radius: 30px; border-bottom-right-radius: 30px;">Đăng ký</button>
+            </button>
+            <input type="text" class="form-control" placeholder="Nhập địa chỉ email"> -->
+            <div class="container-fluid p-4" style="border: 4px solid gray; border-top-left-radius: 30px; border-bottom-right-radius: 30px;">
+                <h6>Nhận thông tin ưu đãi từ Hưng Nguyễn</h6>
+                <div class="row">
+                    <div class="col-7">
+                        <input type="text" class="form-control" placeholder="Nhập địa chỉ email" style="border: none;">
+                    </div>
+                    <div class="col-5">
+                        <button type="button" name="" id="" class="btn" style="border: 1px solid black; font-weight: 500; border-top-left-radius: 30px; border-bottom-right-radius: 30px;">Đăng ký</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid d-flex justify-content-between">
+        <button type="button" name="" id="" class="btn text-light" style="background-color: black; padding: 10px 10px; font-weight: 500; border-top-left-radius: 30px; border-bottom-right-radius: 30px;">HOTLINE: 0898.386.715</button>
+        <i class="fa-brands fa-facebook-messenger" style="color: #fff; font-size: 40px; background-color: #0A7CFF; padding: 10px; border-radius: 50%;"></i>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

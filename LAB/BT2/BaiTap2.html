@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài Tập 2</title>
+</head>
+<body>
+    <img scr="./images/Koala.jpg" alt="Gau chet" width="300" border="0"/>
+    <br>
+    <h5>numbered list:</h5>
+    <ol>
+        <li>apples</li>
+        <li>bananas</li>
+        <li>lemons</li>
+    </ol>
+    <h5>letters list:</h5>
+    <ol type="a">
+        <li>apples</li>
+        <li>bananas</li>
+        <li>lemons</li>
+    </ol>
+    <h5 type="1">
+        <li>apples</li>
+        <li>bananas</li>
+        <li>lemons</li>
+    </h5>
+    <br>
+    <p>Ordered lists can be very simple.</p>
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+    <p>Ordered lists can start at different values and with different types</p>
+    <ol>
+        <li type="a">Lowercase letters</li>
+        <li type="A">Uppercase letters</li>
+        <li type="i">Lowercase Roman numerals</li>
+        <li type="I">Uppercase Romen numerals</li>
+        <li type="1">Arabic numerals</li>
+    </ol>
+    <p>Ordered lists can start at different values and with different types.</p>
+    <ol start="10" type="a">
+    <li>This should be j</li>
+    <li value="3">This should be c
+        <ol>
+            <li>List can nest
+                <ol>
+                    <li>Nesting depth is unlimited</li>
+                </ol>
+            </li>
+        </ol>
+    </li>
+    </ol>
+    <h5>Disc bullets list:</h5>
+    <ul type="disc">
+        <li>apples</li>
+        <li>bananas</li>
+        <li>lemons</li>
+    </ul>
+    <h5>Circle bullets list:</h5>
+    <ul type="circle">
+        <li>apples</li>
+        <li>bananas</li>
+        <li>lemons</li>
+    </ul>
+    <h5>Square bullets list:</h5> 
+    <ul type="square">
+        <li>apples</li>
+        <li>bananas</li>
+        <li>lemons</li>
+    </h5>
+    <dl>
+        <dt>Coffee</dt>
+        <dd>Black hot drink</dd>
+        <dt>lemons</dt>
+        <dd>White cold drink</dd>
+    </dl>
+
+    <a href="http://facebook.com">facebook.com</a>
+    <table border="2">
+        <tr>
+            <td style="text-align: center;"><b>Name</b></td>
+            <td colspan="2" style="text-align: center; "><b>Telephone</b></td>
+        </tr>
+        <tr>
+            <td>Bill Gates</td>
+            <td>555 77 854</td>
+            <td>555 77 855</td>
+        </tr>
+    </table>
+    <table border="2">
+        <tr>
+            <td>First Name:</td>
+            <td>Bill Gates</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Telephone:</td>
+            <td>555 77 854</td>
+        </tr>
+        <tr>
+            <td>555 777 855</td>
+        </tr>
+    </table>
+
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Telephone</th>
+            <th>Country</th>
+            <th>Center</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Bill Gates</td>
+            <td>(050)256-3600</td>
+            <td colspan="2" rowspan="3">silicon valley - usa</td>
+        </tr>
+        <tr>
+            <td>0844 41 45 387</td>
+        </tr>
+        <tr>
+            <td>Steve Job</td>
+            <td>1-800-676-2775</td>
+        </tr>
+    </table>
+
+    <table border="1" cellspacing="15">
+        <tr>
+            <th>Name</th>
+            <th colspan="2">Telephone</th>
+        </tr>
+        <tr>
+            <td>Bill Gates</td>
+            <td>(050)256-3600</td>
+            <td>0844 41 45 387</td>
+        </tr>
+    </table>
+
+    <table border="1">
+        <colgroup span="2" style="background-color: #09F">
+        <colgroup style="background-color: #F30">
+        <tr>
+            <th>Type</th>
+            <th>Price</th>
+            <th>Made in</th>
+        </tr>
+        <tr>
+            <td>iPhone 3GS - 8GB</td>
+            <td>$99</td>
+            <td>USA</td>
+        </tr>
+        <tr>
+            <td>iPhone 4G - 16GB</td>
+            <td>$199</td>
+            <td>USA</td>
+        </tr>
+        <tr>
+            <td>iPhone 3GS - 32GB</td>
+            <td>$299</td>
+            <td>USA</td>
+        </tr>
+    </table>
+
+    <fieldset>
+        <legend>Member Information</legend>
+        <label for="name">Full Name:</label>
+            <input type="text" name="name" id="fname" size="30" />
+        <br />
+        <label for="pwd">Password:</label>
+            <input type="password" name="pwd" id="pw" size="30" />
+        <br />
+        <label for="addr">Address:</label>
+            <textarea name="addr" id="feedback" rows="10"   cols="30"></textarea><br />
+        <input type="submit" value="Submit" id="submit"/>
+        <input type="reset" value="Reset" id="reset"/>
+    </fieldset>
+    </form>
+
+    <br>
+
+    <form>
+        <input type="radio" name="sex"  value="male" checked="checked"/> Male
+        <br/>
+        <input type="radio" name="sex"  value="female"/> Female
+    </form>
+    <br>
+    <form>
+        <input type="checkbox" name="bike" checked="checked"/>I have a bike
+        <br>
+        <input type="checkbox" name="car"/>I have a car
+    </form>
+    <br>
+    <select>
+        <option value="1">Toyota</option>
+        <option value="2" selected="selected">Honda</option>
+        <option value="3">Mercedes</option>
+        <option value="4">Ford</option>
+    </select>
+    <br>
+    <select>
+        <optgroup label="Swedish Cars">
+            <option value="volvo">Voldo</option>
+            <option value="saab">Saab</option>
+        </optgroup>
+        <optgroup label="German Cars">
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+        </optgroup>
+    </select>
+</body>
+</html>
